@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF42CCD13FF1691004A8569 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EDF42CCC13FF1691004A8569 /* main.c */; };
+		EDF42CCF13FF1691004A8569 /* C_Main_Project.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EDF42CCE13FF1691004A8569 /* C_Main_Project.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDF42CC613FF1691004A8569 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EDF42CCF13FF1691004A8569 /* C_Main_Project.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDF42CC813FF1691004A8569 /* C Main Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Main Project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF42CCC13FF1691004A8569 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EDF42CCE13FF1691004A8569 /* C_Main_Project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = C_Main_Project.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF42CC513FF1691004A8569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF42CBD13FF1691004A8569 = {
+			isa = PBXGroup;
+			children = (
+				EDF42CCB13FF1691004A8569 /* C Main Project */,
+				EDF42CC913FF1691004A8569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF42CC913FF1691004A8569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF42CC813FF1691004A8569 /* C Main Project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF42CCB13FF1691004A8569 /* C Main Project */ = {
+			isa = PBXGroup;
+			children = (
+				EDF42CCC13FF1691004A8569 /* main.c */,
+				EDF42CCE13FF1691004A8569 /* C_Main_Project.1 */,
+			);
+			path = "C Main Project";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF42CC713FF1691004A8569 /* C Main Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF42CD213FF1691004A8569 /* Build configuration list for PBXNativeTarget "C Main Project" */;
+			buildPhases = (
+				EDF42CC413FF1691004A8569 /* Sources */,
+				EDF42CC513FF1691004A8569 /* Frameworks */,
+				EDF42CC613FF1691004A8569 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C Main Project";
+			productName = "C Main Project";
+			productReference = EDF42CC813FF1691004A8569 /* C Main Project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF42CBF13FF1691004A8569 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EDF42CC213FF1691004A8569 /* Build configuration list for PBXProject "C Main Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDF42CBD13FF1691004A8569;
+			productRefGroup = EDF42CC913FF1691004A8569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF42CC713FF1691004A8569 /* C Main Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF42CC413FF1691004A8569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF42CCD13FF1691004A8569 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDF42CD013FF1691004A8569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EDF42CD113FF1691004A8569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EDF42CD313FF1691004A8569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF42CD413FF1691004A8569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF42CC213FF1691004A8569 /* Build configuration list for PBXProject "C Main Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF42CD013FF1691004A8569 /* Debug */,
+				EDF42CD113FF1691004A8569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF42CD213FF1691004A8569 /* Build configuration list for PBXNativeTarget "C Main Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF42CD313FF1691004A8569 /* Debug */,
+				EDF42CD413FF1691004A8569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF42CBF13FF1691004A8569 /* Project object */;
+}
