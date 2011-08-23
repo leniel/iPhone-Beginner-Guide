@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDF42CCD13FF1691004A8569 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EDF42CCC13FF1691004A8569 /* main.c */; };
-		EDF42CCF13FF1691004A8569 /* C_Main_Project.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EDF42CCE13FF1691004A8569 /* C_Main_Project.1 */; };
+		ED55FE3C1404165A009A97CF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED55FE3B1404165A009A97CF /* main.c */; };
+		ED55FE3E1404165A009A97CF /* Using_Pointers.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED55FE3D1404165A009A97CF /* Using_Pointers.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EDF42CC613FF1691004A8569 /* CopyFiles */ = {
+		ED55FE351404165A009A97CF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				EDF42CCF13FF1691004A8569 /* C_Main_Project.1 in CopyFiles */,
+				ED55FE3E1404165A009A97CF /* Using_Pointers.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EDF42CC813FF1691004A8569 /* C Main Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Main Project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDF42CCC13FF1691004A8569 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		EDF42CCE13FF1691004A8569 /* C_Main_Project.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = C_Main_Project.1; sourceTree = "<group>"; };
+		ED55FE371404165A009A97CF /* Using Pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Using Pointers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED55FE3B1404165A009A97CF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ED55FE3D1404165A009A97CF /* Using_Pointers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Using_Pointers.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EDF42CC513FF1691004A8569 /* Frameworks */ = {
+		ED55FE341404165A009A97CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,86 +41,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EDF42CBD13FF1691004A8569 = {
+		ED55FE2C1404165A009A97CF = {
 			isa = PBXGroup;
 			children = (
-				EDF42CCB13FF1691004A8569 /* C Main Project */,
-				EDF42CC913FF1691004A8569 /* Products */,
+				ED55FE3A1404165A009A97CF /* Using Pointers */,
+				ED55FE381404165A009A97CF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EDF42CC913FF1691004A8569 /* Products */ = {
+		ED55FE381404165A009A97CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDF42CC813FF1691004A8569 /* C Main Project */,
+				ED55FE371404165A009A97CF /* Using Pointers */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDF42CCB13FF1691004A8569 /* C Main Project */ = {
+		ED55FE3A1404165A009A97CF /* Using Pointers */ = {
 			isa = PBXGroup;
 			children = (
-				EDF42CCC13FF1691004A8569 /* main.c */,
-				EDF42CCE13FF1691004A8569 /* C_Main_Project.1 */,
+				ED55FE3B1404165A009A97CF /* main.c */,
+				ED55FE3D1404165A009A97CF /* Using_Pointers.1 */,
 			);
-			path = "C Main Project";
+			path = "Using Pointers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDF42CC713FF1691004A8569 /* C Main Project */ = {
+		ED55FE361404165A009A97CF /* Using Pointers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDF42CD213FF1691004A8569 /* Build configuration list for PBXNativeTarget "C Main Project" */;
+			buildConfigurationList = ED55FE411404165A009A97CF /* Build configuration list for PBXNativeTarget "Using Pointers" */;
 			buildPhases = (
-				EDF42CC413FF1691004A8569 /* Sources */,
-				EDF42CC513FF1691004A8569 /* Frameworks */,
-				EDF42CC613FF1691004A8569 /* CopyFiles */,
+				ED55FE331404165A009A97CF /* Sources */,
+				ED55FE341404165A009A97CF /* Frameworks */,
+				ED55FE351404165A009A97CF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "C Main Project";
-			productName = "C Main Project";
-			productReference = EDF42CC813FF1691004A8569 /* C Main Project */;
+			name = "Using Pointers";
+			productName = "Using Pointers";
+			productReference = ED55FE371404165A009A97CF /* Using Pointers */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EDF42CBF13FF1691004A8569 /* Project object */ = {
+		ED55FE2E1404165A009A97CF /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = EDF42CC213FF1691004A8569 /* Build configuration list for PBXProject "C Main Project" */;
+			buildConfigurationList = ED55FE311404165A009A97CF /* Build configuration list for PBXProject "Using Pointers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = EDF42CBD13FF1691004A8569;
-			productRefGroup = EDF42CC913FF1691004A8569 /* Products */;
+			mainGroup = ED55FE2C1404165A009A97CF;
+			productRefGroup = ED55FE381404165A009A97CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDF42CC713FF1691004A8569 /* C Main Project */,
+				ED55FE361404165A009A97CF /* Using Pointers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDF42CC413FF1691004A8569 /* Sources */ = {
+		ED55FE331404165A009A97CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF42CCD13FF1691004A8569 /* main.c in Sources */,
+				ED55FE3C1404165A009A97CF /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EDF42CD013FF1691004A8569 /* Debug */ = {
+		ED55FE3F1404165A009A97CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -146,7 +146,7 @@
 			};
 			name = Debug;
 		};
-		EDF42CD113FF1691004A8569 /* Release */ = {
+		ED55FE401404165A009A97CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -165,14 +165,14 @@
 			};
 			name = Release;
 		};
-		EDF42CD313FF1691004A8569 /* Debug */ = {
+		ED55FE421404165A009A97CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		EDF42CD413FF1691004A8569 /* Release */ = {
+		ED55FE431404165A009A97CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -182,25 +182,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDF42CC213FF1691004A8569 /* Build configuration list for PBXProject "C Main Project" */ = {
+		ED55FE311404165A009A97CF /* Build configuration list for PBXProject "Using Pointers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDF42CD013FF1691004A8569 /* Debug */,
-				EDF42CD113FF1691004A8569 /* Release */,
+				ED55FE3F1404165A009A97CF /* Debug */,
+				ED55FE401404165A009A97CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDF42CD213FF1691004A8569 /* Build configuration list for PBXNativeTarget "C Main Project" */ = {
+		ED55FE411404165A009A97CF /* Build configuration list for PBXNativeTarget "Using Pointers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDF42CD313FF1691004A8569 /* Debug */,
-				EDF42CD413FF1691004A8569 /* Release */,
+				ED55FE421404165A009A97CF /* Debug */,
+				ED55FE431404165A009A97CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EDF42CBF13FF1691004A8569 /* Project object */;
+	rootObject = ED55FE2E1404165A009A97CF /* Project object */;
 }
