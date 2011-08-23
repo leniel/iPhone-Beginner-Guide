@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED55FE5B14041E09009A97CF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ED55FE5A14041E09009A97CF /* main.c */; };
+		ED55FE5D14041E09009A97CF /* C_Pointer_Array.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED55FE5C14041E09009A97CF /* C_Pointer_Array.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED55FE5414041E09009A97CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				ED55FE5D14041E09009A97CF /* C_Pointer_Array.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED55FE5614041E09009A97CF /* C Pointer Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Pointer Array"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED55FE5A14041E09009A97CF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ED55FE5C14041E09009A97CF /* C_Pointer_Array.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = C_Pointer_Array.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED55FE5314041E09009A97CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED55FE4B14041E09009A97CF = {
+			isa = PBXGroup;
+			children = (
+				ED55FE5914041E09009A97CF /* C Pointer Array */,
+				ED55FE5714041E09009A97CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED55FE5714041E09009A97CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED55FE5614041E09009A97CF /* C Pointer Array */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED55FE5914041E09009A97CF /* C Pointer Array */ = {
+			isa = PBXGroup;
+			children = (
+				ED55FE5A14041E09009A97CF /* main.c */,
+				ED55FE5C14041E09009A97CF /* C_Pointer_Array.1 */,
+			);
+			path = "C Pointer Array";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED55FE5514041E09009A97CF /* C Pointer Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED55FE6014041E09009A97CF /* Build configuration list for PBXNativeTarget "C Pointer Array" */;
+			buildPhases = (
+				ED55FE5214041E09009A97CF /* Sources */,
+				ED55FE5314041E09009A97CF /* Frameworks */,
+				ED55FE5414041E09009A97CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "C Pointer Array";
+			productName = "C Pointer Array";
+			productReference = ED55FE5614041E09009A97CF /* C Pointer Array */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED55FE4D14041E09009A97CF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ED55FE5014041E09009A97CF /* Build configuration list for PBXProject "C Pointer Array" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED55FE4B14041E09009A97CF;
+			productRefGroup = ED55FE5714041E09009A97CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED55FE5514041E09009A97CF /* C Pointer Array */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED55FE5214041E09009A97CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED55FE5B14041E09009A97CF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED55FE5E14041E09009A97CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED55FE5F14041E09009A97CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ED55FE6114041E09009A97CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED55FE6214041E09009A97CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED55FE5014041E09009A97CF /* Build configuration list for PBXProject "C Pointer Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED55FE5E14041E09009A97CF /* Debug */,
+				ED55FE5F14041E09009A97CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED55FE6014041E09009A97CF /* Build configuration list for PBXNativeTarget "C Pointer Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED55FE6114041E09009A97CF /* Debug */,
+				ED55FE6214041E09009A97CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED55FE4D14041E09009A97CF /* Project object */;
+}

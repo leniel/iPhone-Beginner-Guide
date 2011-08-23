@@ -2,7 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:C Main Project/../Using Pointers/Using Pointers.xcodeproj">
+      location = "group:Using Pointers/Using Pointers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:C Pointer Array/C Pointer Array.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:C Main Project/C Main Project.xcodeproj">
