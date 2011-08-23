@@ -295,6 +295,7 @@
 				EDF42DAB1403F6F8004A8569 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
