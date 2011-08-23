@@ -2,13 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:C Main Project">
-   </FileRef>
-   <FileRef
       location = "group:C Main Project.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:QuickStart">
    </FileRef>
    <FileRef
       location = "group:QuickStart.xcodeproj">
