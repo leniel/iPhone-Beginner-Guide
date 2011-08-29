@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:Using Pointers/Using Pointers.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:C Pointer Array/C Pointer Array.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:C Main Project/C Main Project.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:QuickStart/QuickStart.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:CreateHeaderFile/CreateHeaderFile.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "Chapter #1">
+      <FileRef
+         location = "group:QuickStart/QuickStart.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Chapter #2">
+      <FileRef
+         location = "group:QuickStart/../C Main Project/C Main Project.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CreateHeaderFile/CreateHeaderFile.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Using Pointers/Using Pointers.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:C Pointer Array/C Pointer Array.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Chapter #3">
+      <FileRef
+         location = "group:ChapThree/ChapThree.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
