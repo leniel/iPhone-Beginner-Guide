@@ -31,4 +31,11 @@
          location = "group:ChapThree/ChapThree.xcodeproj">
       </FileRef>
    </Group>
+   <Group
+      location = "container:"
+      name = "Chapter #4">
+      <FileRef
+         location = "group:SimpleMultiArg/SimpleMultiArg.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>

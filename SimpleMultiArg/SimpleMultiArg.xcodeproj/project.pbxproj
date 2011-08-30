@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC5D024140D3E4F0009DCB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC5D023140D3E4F0009DCB3 /* UIKit.framework */; };
+		EDC5D026140D3E4F0009DCB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC5D025140D3E4F0009DCB3 /* Foundation.framework */; };
+		EDC5D028140D3E4F0009DCB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC5D027140D3E4F0009DCB3 /* CoreGraphics.framework */; };
+		EDC5D02E140D3E4F0009DCB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC5D02C140D3E4F0009DCB3 /* InfoPlist.strings */; };
+		EDC5D030140D3E4F0009DCB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC5D02F140D3E4F0009DCB3 /* main.m */; };
+		EDC5D034140D3E4F0009DCB3 /* SimpleMultiArgAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC5D033140D3E4F0009DCB3 /* SimpleMultiArgAppDelegate.m */; };
+		EDC5D037140D3E4F0009DCB3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC5D035140D3E4F0009DCB3 /* MainWindow.xib */; };
+		EDC5D03A140D3E4F0009DCB3 /* SimpleMultiArgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC5D039140D3E4F0009DCB3 /* SimpleMultiArgViewController.m */; };
+		EDC5D03D140D3E4F0009DCB3 /* SimpleMultiArgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDC5D03B140D3E4F0009DCB3 /* SimpleMultiArgViewController.xib */; };
+		EDC5D046140D3EB50009DCB3 /* Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC5D045140D3EB50009DCB3 /* Simple.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDC5D01F140D3E4F0009DCB3 /* SimpleMultiArg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMultiArg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC5D023140D3E4F0009DCB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDC5D025140D3E4F0009DCB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDC5D027140D3E4F0009DCB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDC5D02B140D3E4F0009DCB3 /* SimpleMultiArg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMultiArg-Info.plist"; sourceTree = "<group>"; };
+		EDC5D02D140D3E4F0009DCB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC5D02F140D3E4F0009DCB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC5D031140D3E4F0009DCB3 /* SimpleMultiArg-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleMultiArg-Prefix.pch"; sourceTree = "<group>"; };
+		EDC5D032140D3E4F0009DCB3 /* SimpleMultiArgAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleMultiArgAppDelegate.h; sourceTree = "<group>"; };
+		EDC5D033140D3E4F0009DCB3 /* SimpleMultiArgAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleMultiArgAppDelegate.m; sourceTree = "<group>"; };
+		EDC5D036140D3E4F0009DCB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EDC5D038140D3E4F0009DCB3 /* SimpleMultiArgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleMultiArgViewController.h; sourceTree = "<group>"; };
+		EDC5D039140D3E4F0009DCB3 /* SimpleMultiArgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleMultiArgViewController.m; sourceTree = "<group>"; };
+		EDC5D03C140D3E4F0009DCB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SimpleMultiArgViewController.xib; sourceTree = "<group>"; };
+		EDC5D044140D3EB50009DCB3 /* Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simple.h; sourceTree = "<group>"; };
+		EDC5D045140D3EB50009DCB3 /* Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simple.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC5D01C140D3E4F0009DCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC5D024140D3E4F0009DCB3 /* UIKit.framework in Frameworks */,
+				EDC5D026140D3E4F0009DCB3 /* Foundation.framework in Frameworks */,
+				EDC5D028140D3E4F0009DCB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC5D014140D3E4F0009DCB3 = {
+			isa = PBXGroup;
+			children = (
+				EDC5D043140D3E9A0009DCB3 /* Objective-C */,
+				EDC5D029140D3E4F0009DCB3 /* SimpleMultiArg */,
+				EDC5D022140D3E4F0009DCB3 /* Frameworks */,
+				EDC5D020140D3E4F0009DCB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC5D020140D3E4F0009DCB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5D01F140D3E4F0009DCB3 /* SimpleMultiArg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC5D022140D3E4F0009DCB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5D023140D3E4F0009DCB3 /* UIKit.framework */,
+				EDC5D025140D3E4F0009DCB3 /* Foundation.framework */,
+				EDC5D027140D3E4F0009DCB3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC5D029140D3E4F0009DCB3 /* SimpleMultiArg */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5D032140D3E4F0009DCB3 /* SimpleMultiArgAppDelegate.h */,
+				EDC5D033140D3E4F0009DCB3 /* SimpleMultiArgAppDelegate.m */,
+				EDC5D035140D3E4F0009DCB3 /* MainWindow.xib */,
+				EDC5D038140D3E4F0009DCB3 /* SimpleMultiArgViewController.h */,
+				EDC5D039140D3E4F0009DCB3 /* SimpleMultiArgViewController.m */,
+				EDC5D03B140D3E4F0009DCB3 /* SimpleMultiArgViewController.xib */,
+				EDC5D02A140D3E4F0009DCB3 /* Supporting Files */,
+			);
+			path = SimpleMultiArg;
+			sourceTree = "<group>";
+		};
+		EDC5D02A140D3E4F0009DCB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5D02B140D3E4F0009DCB3 /* SimpleMultiArg-Info.plist */,
+				EDC5D02C140D3E4F0009DCB3 /* InfoPlist.strings */,
+				EDC5D02F140D3E4F0009DCB3 /* main.m */,
+				EDC5D031140D3E4F0009DCB3 /* SimpleMultiArg-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC5D043140D3E9A0009DCB3 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				EDC5D044140D3EB50009DCB3 /* Simple.h */,
+				EDC5D045140D3EB50009DCB3 /* Simple.m */,
+			);
+			name = "Objective-C";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC5D01E140D3E4F0009DCB3 /* SimpleMultiArg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC5D040140D3E4F0009DCB3 /* Build configuration list for PBXNativeTarget "SimpleMultiArg" */;
+			buildPhases = (
+				EDC5D01B140D3E4F0009DCB3 /* Sources */,
+				EDC5D01C140D3E4F0009DCB3 /* Frameworks */,
+				EDC5D01D140D3E4F0009DCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMultiArg;
+			productName = SimpleMultiArg;
+			productReference = EDC5D01F140D3E4F0009DCB3 /* SimpleMultiArg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC5D016140D3E4F0009DCB3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EDC5D019140D3E4F0009DCB3 /* Build configuration list for PBXProject "SimpleMultiArg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDC5D014140D3E4F0009DCB3;
+			productRefGroup = EDC5D020140D3E4F0009DCB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC5D01E140D3E4F0009DCB3 /* SimpleMultiArg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC5D01D140D3E4F0009DCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC5D02E140D3E4F0009DCB3 /* InfoPlist.strings in Resources */,
+				EDC5D037140D3E4F0009DCB3 /* MainWindow.xib in Resources */,
+				EDC5D03D140D3E4F0009DCB3 /* SimpleMultiArgViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC5D01B140D3E4F0009DCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC5D030140D3E4F0009DCB3 /* main.m in Sources */,
+				EDC5D034140D3E4F0009DCB3 /* SimpleMultiArgAppDelegate.m in Sources */,
+				EDC5D03A140D3E4F0009DCB3 /* SimpleMultiArgViewController.m in Sources */,
+				EDC5D046140D3EB50009DCB3 /* Simple.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDC5D02C140D3E4F0009DCB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC5D02D140D3E4F0009DCB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDC5D035140D3E4F0009DCB3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC5D036140D3E4F0009DCB3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EDC5D03B140D3E4F0009DCB3 /* SimpleMultiArgViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC5D03C140D3E4F0009DCB3 /* en */,
+			);
+			name = SimpleMultiArgViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC5D03E140D3E4F0009DCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDC5D03F140D3E4F0009DCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC5D041140D3E4F0009DCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMultiArg/SimpleMultiArg-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMultiArg/SimpleMultiArg-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDC5D042140D3E4F0009DCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMultiArg/SimpleMultiArg-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMultiArg/SimpleMultiArg-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC5D019140D3E4F0009DCB3 /* Build configuration list for PBXProject "SimpleMultiArg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC5D03E140D3E4F0009DCB3 /* Debug */,
+				EDC5D03F140D3E4F0009DCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC5D040140D3E4F0009DCB3 /* Build configuration list for PBXNativeTarget "SimpleMultiArg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC5D041140D3E4F0009DCB3 /* Debug */,
+				EDC5D042140D3E4F0009DCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC5D016140D3E4F0009DCB3 /* Project object */;
+}
